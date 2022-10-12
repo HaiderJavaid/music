@@ -1,0 +1,27 @@
+.searchbar {
+    position: absolute;
+width: 122px;
+height: 73px;
+left: 96px;
+top: 0px;
+display: flex;
+background: #1D2123;
+padding: 29px 964px 26px 25.33px;
+}
+
+input {
+    
+    height: 20px;
+    background: #1D2123;
+    border: none ;
+    
+}
+
+.search-icon {
+    margin: 0 25.33px 0 29px  ;
+    height: 20px;
+}
+
+.logo {
+    padding: 30px 25px 25px 30px;
+}

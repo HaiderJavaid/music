@@ -1,6 +1,8 @@
+
 import React, {useState, useEffect} from 'react'
 import Sidebar from '../../mainComponents/sidebar/Sidebar'
 import Searchbar from '../../mainComponents/searchbar/Searchbar'
+
 import MusicControl from '../../mainComponents/musicControl/MusicControl'
 import MainCard from './components/mainCard/MainCard'
 import TopChart from './components/topChart/TopChart'

@@ -8,6 +8,7 @@
 .main {
     background: #1D2123;
     color: white;
+
     max-width: 100%;
     min-height: 100vh;
     position: relative;
@@ -16,4 +17,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }

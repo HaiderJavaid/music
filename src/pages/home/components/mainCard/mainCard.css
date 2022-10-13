@@ -8,18 +8,21 @@
     height: 373px;
     width: 686px;
     margin-right: 25px;
+    
 }
 .maincard-bg{
     width: 100%;
     height: 100%;
     background-color: #609eaf;
     border-radius: 40px;
+    overflow: hidden;
     
 }
 .vector{
     width: 100%;
     height: 100%;
-    background-image: url(/public/images/Vector1.png);
+    background-image: url(../../../../assets/Vector.svg);
+    
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;

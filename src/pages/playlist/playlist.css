@@ -1,0 +1,51 @@
+/* STYLING */
+
+.playlist-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-inline: 6rem 5rem;
+    padding-top: 5rem;
+}
+.playlist--header {
+    column-gap: 1.5rem;
+}
+.playlist--header-info{
+    flex-grow: 4;
+    font-size: 14px;
+}
+.playlist--header-info h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #a4c7c6;
+}
+.desc {
+    max-width: 40%;
+    margin-block: 1rem;
+}
+.playlist--header img{
+    width: 16rem;
+    border-radius: 2.1rem;
+}
+.btn-container{
+    margin-block: .5rem;
+}
+
+/* SONGS */
+.songs-container{
+    margin-top: 2rem;
+    row-gap: 1rem;
+    flex-direction: column;
+}
+.song{
+    width: 100%;
+    justify-content: space-between !important;
+    background-color: #1A1E1F;
+    padding: .5rem;
+}
+.album--art {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}

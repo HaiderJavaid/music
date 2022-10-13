@@ -1,0 +1,315 @@
+{
+
+        "playlist" : [
+            {   "id": 1,
+                "title" : "Golden ages of 80s",
+                "desc" : "Listen to the Golden Age hits",
+                "totalSongs": 10,
+                "totalTime": "2:34:45",
+                "isfavorite": true,
+                "compiler": "Sean Swadder",
+                "playlistArt": "../images/playlist/eightys.svg",
+                "songs": [
+                    {
+                        "coverArt": "../images/album/album_art_4.png",
+                        "title": "Let me love you",
+                        "artist": "krisx",
+                        "album": "Single",
+                        "Length": "4:12"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-african-giant-artwork.png",
+                        "title": "Wetin man go do",
+                        "artist": "Burna Boy",
+                        "album": "African giant",
+                        "Length": "2:30"
+                    },
+                    {
+                        "coverArt": "../images/artiste/davido/davido-stand-strong-art.jpg",
+                        "title": "Stand Strong",
+                        "artist": "Davido 001",
+                        "album": "Single",
+                        "Length": "2:02"
+                    },
+                    {
+                        "coverArt": "../images/album/album_art_7.png",
+                        "title": "Closa",
+                        "artist": "Ybee",
+                        "album": "Obidatti",
+                        "Length": "3:23"
+                    },
+                    {
+                        "coverArt": "../images/artiste/omah-lay/omah-lay-understand-artwork.jpeg",
+                        "title": "understand",
+                        "artist": "Omalay",
+                        "album": "Single",
+                        "Length": "2:54"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
+                        "title": "Last Last",
+                        "artist": "Burna Boy",
+                        "album": "Love, Damini",
+                        "Length": "2:52"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
+                        "title": "Terminator",
+                        "artist": "Asake",
+                        "album": "Mr.Money With The Vibe",
+                        "Length": "2:35"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Ayra/ayra-starr-rush-artwork.webp",
+                        "title": "Rush",
+                        "artist": "Arya Star",
+                        "album": "Single",
+                        "Length": "3:05"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
+                        "title": "Common Person",
+                        "artist": "Burna",
+                        "album": "Love, Damini",
+                        "Length": "3:30"
+                    },
+                    {
+                        "coverArt": "../images/artiste/C-kay/c-kay-sad-romance-artwork.jpeg",
+                        "title": "emilliana",
+                        "artist": "CKay",
+                        "album": "Sad Romance",
+                        "Length": "2:46"
+                    }, 
+                    {
+                        "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
+                        "title": "Muse",
+                        "artist": "Asake",
+                        "album": "Mr.Money With The Vibe",
+                        "Length": "1:57"
+                    }
+                ]
+
+            },
+            {
+                "id": 2,
+                "title" : "Reggae \"n\" blues",
+                "desc" : "Top hits from the Reggae Genres",
+                "totalSongs": 10,
+                "totalTime": "1:02:35",
+                "isfavorite": true,
+                "compiler": "DJ YK mule",
+                "playlistArt": "../images/playlist/reggae.svg",
+                "songs": [
+                    {
+                        "coverArt": "../images/album/album_art_4.png",
+                        "title": "Let me love you",
+                        "artist": "krisx",
+                        "album": "Single",
+                        "Length": "4:12"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-african-giant-artwork.png",
+                        "title": "Wetin man go do",
+                        "artist": "Burna Boy",
+                        "album": "African giant",
+                        "Length": "2:30"
+                    },
+                    {
+                        "coverArt": "../images/artiste/davido/davido-stand-strong-art.jpg",
+                        "title": "Stand Strong",
+                        "artist": "Davido 001",
+                        "album": "Single",
+                        "Length": "2:02"
+                    },
+                    {
+                        "coverArt": "../images/album/album_art_7.png",
+                        "title": "Closa",
+                        "artist": "Ybee",
+                        "album": "Obidatti",
+                        "Length": "3:23"
+                    },
+                    {
+                        "coverArt": "../images/artiste/omah-lay/omah-lay-understand-artwork.jpeg",
+                        "title": "understand",
+                        "artist": "Omalay",
+                        "album": "Single",
+                        "Length": "2:54"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
+                        "title": "Last Last",
+                        "artist": "Burna Boy",
+                        "album": "Love, Damini",
+                        "Length": "2:52"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
+                        "title": "Terminator",
+                        "artist": "Asake",
+                        "album": "Mr.Money With The Vibe",
+                        "Length": "2:35"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Ayra/ayra-starr-rush-artwork.webp",
+                        "title": "Rush",
+                        "artist": "Arya Star",
+                        "album": "Single",
+                        "Length": "3:05"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
+                        "title": "Common Person",
+                        "artist": "Burna",
+                        "album": "Love, Damini",
+                        "Length": "3:30"
+                    },
+                    {
+                        "coverArt": "../images/artiste/C-kay/c-kay-sad-romance-artwork.jpeg",
+                        "title": "emilliana",
+                        "artist": "CKay",
+                        "album": "Sad Romance",
+                        "Length": "2:46"
+                    }, 
+                    {
+                        "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
+                        "title": "Muse",
+                        "artist": "Asake",
+                        "album": "Mr.Money With The Vibe",
+                        "Length": "1:57"
+                    }
+                ]
+
+            },
+            {
+                "id": 3,
+                "title" : "Tomorrow's tunes",
+                "desc" : "Listen to hits that are here to stay for a while",
+                "totalSongs": 10,
+                "totalTime": "2:01:25",
+                "isfavorite": true,
+                "compiler": "Obi Datti",
+                "playlistArt": "../images/playlist/tomorrows.svg",
+                "songs": [
+                    {
+                        "coverArt": "../images/album/album_art_4.png",
+                        "title": "Let me love you",
+                        "artist": "krisx",
+                        "album": "Single",
+                        "Length": "4:12"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-african-giant-artwork.png",
+                        "title": "Wetin man go do",
+                        "artist": "Burna Boy",
+                        "album": "African giant",
+                        "Length": "2:30"
+                    },
+                    {
+                        "coverArt": "../images/artiste/davido/davido-stand-strong-art.jpg",
+                        "title": "Stand Strong",
+                        "artist": "Davido 001",
+                        "album": "Single",
+                        "Length": "2:02"
+                    },
+                    {
+                        "coverArt": "../images/album/album_art_7.png",
+                        "title": "Closa",
+                        "artist": "Ybee",
+                        "album": "Obidatti",
+                        "Length": "3:23"
+                    },
+                    {
+                        "coverArt": "../images/artiste/omah-lay/omah-lay-understand-artwork.jpeg",
+                        "title": "understand",
+                        "artist": "Omalay",
+                        "album": "Single",
+                        "Length": "2:54"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
+                        "title": "Last Last",
+                        "artist": "Burna Boy",
+                        "album": "Love, Damini",
+                        "Length": "2:52"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
+                        "title": "Terminator",
+                        "artist": "Asake",
+                        "album": "Mr.Money With The Vibe",
+                        "Length": "2:35"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Ayra/ayra-starr-rush-artwork.webp",
+                        "title": "Rush",
+                        "artist": "Arya Star",
+                        "album": "Single",
+                        "Length": "3:05"
+                    },
+                    {
+                        "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
+                        "title": "Common Person",
+                        "artist": "Burna",
+                        "album": "Love, Damini",
+                        "Length": "3:30"
+                    },
+                    {
+                        "coverArt": "../images/artiste/C-kay/c-kay-sad-romance-artwork.jpeg",
+                        "title": "emilliana",
+                        "artist": "CKay",
+                        "album": "Sad Romance",
+                        "Length": "2:46"
+                    }, 
+                    {
+                        "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
+                        "title": "Muse",
+                        "artist": "Asake",
+                        "album": "Mr.Money With The Vibe",
+                        "Length": "1:57"
+                    }
+                ]
+            }
+        ],
+        "albums" : [
+            {
+                "albumCover": "../images/album/album_art_0.png",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            },
+            {
+                "albumCover": "../images/album/album_art_1.png",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            },
+            {
+                "albumCover": "../images/album/album_art_2.png",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            },
+            {
+                "albumCover": "../images/album/album_art_3.png",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            },
+            {
+                "albumCover": "../images/album/album_art_4.png",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            },
+            {
+                "albumCover": "../images/album/album_art_5.png",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            },
+            {
+                "albumCover": "../images/album/album_art_6.jpg",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            },
+            {
+                "albumCover": "../images/album/album_art_4.png",
+                "albumTitle": "Life in a bubble",
+                "albumArtist": "The van"
+            }
+        ]
+}

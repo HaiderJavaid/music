@@ -1,5 +1,6 @@
 import Home from "./pages/home/Home";
 import Album from "./pages/album/Album";
+import Playlist from "./pages/playlist/Playlist";
 import './App.css'
 
 
@@ -12,13 +13,14 @@ function App() {
   return (
     <div className="main">
       
-         <Searchbar/>
+      <Searchbar/>
       <Sidebar/>
       
-        <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/album" element={<Album />} />
-        </Routes>
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/album" element={<Album />} />
+      <Route path='/playlist/:id' element={<Playlist />}/>
+      </Routes>
       
     </div>
   );

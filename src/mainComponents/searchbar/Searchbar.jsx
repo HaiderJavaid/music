@@ -3,14 +3,14 @@ import './searchbar.css'
 import logo from '../../assets/logo.svg'
 import search from '../../assets/search.svg'
 
-import {Form} from 'react-bootstrap'
+// import {Form} from 'react-bootstrap'
 
 const Searchbar = () => {
   return (
     <div>
-    <img  src={logo} className='logo'/>
+    <img  src={logo} alt='logo' className='logo'/>
     <div className='searchbar'>
-    <img  src={search} className='search-icon'/>
+    <img  src={search} alt='search' className='search-icon'/>
 
 
     <input className='input' placeholder='Search artists'></input>

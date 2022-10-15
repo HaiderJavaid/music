@@ -1,30 +1,33 @@
 
-
-.newrelease{
-    /* border: solid white 2px; */
-    height: 244px;
-    width: 100%;
-    margin-top: 34px;
-     
+.release--container {
+    margin-top: 1.8rem;
 }
-.newrelease > h4{
-    width: 100%;
-    font-size: 24px;
-    margin-left: 50px;
-    margin-bottom: 12px;
-    
+.album--container {
+    display: relative;
+    overflow-x: auto;
+    column-gap: 2rem;
+    justify-content: flex-start !important;
+    margin-top: 1rem;
 }
-.container{
-    display: flex;
-    gap: 30px;
+.album--container::-webkit-scrollbar {
+    display: none;
 }
-.song{
-    width: 100%;
-    height: 193px;
-}
-.song-name, .song-artiste{
-    font-size: 12px;
+.album {
+    font-size: 0.75rem !important;
     font-weight: 400;
-    line-height: 15px;
-    padding-top: 5px;
 }
+.album h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-block: .5rem 0.1rem;
+    opacity: .85;
+}
+.album img {
+    width: 153px;
+    height: 153px;
+    border-radius: 25px;
+}
+.album p {
+    opacity: .5;
+}
+

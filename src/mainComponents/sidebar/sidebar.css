@@ -7,11 +7,11 @@
     position: absolute;
     background: #1A1E1F;
     border-radius: 32px;
-    
     width: 52px;
     height: 230px;
     left: 20px;
     top: 96px;
+    z-index: 1;
 }
 
 .sidebar-user{
@@ -26,6 +26,7 @@
     height: 127px;
     left: 20px;
     top: 350px;
+    z-index: 1;
 }
 
 .sidebar-icons {

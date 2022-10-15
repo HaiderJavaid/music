@@ -1,0 +1,22 @@
+.playlist-btn{
+    background-color: rgba(51, 55, 59, .37);
+    border: 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 32px;
+    margin-right: 9px;
+    
+    
+   
+
+}
+.play{
+    width: 16px !important; 
+    height: 16px;
+    margin-right: 10px;
+
+}
+.heart{
+    margin-right: 0;
+}

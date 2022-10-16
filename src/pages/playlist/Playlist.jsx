@@ -26,15 +26,19 @@ const Playlist = () => {
 
 
         const {id} = useParams();
+        
         let background;
 
         let playlistMeta = playlistData.map((data, index) => {
-            if(id == data.id) {
+            if(data.id === parseInt(id)) {
                  background = {
-                    background: `linear-gradient(180deg, rgba(29, 33, 35, 0.8) 0%, #1D2123 61.48%), url(${data.playlistArt})`,
+                    background: `linear-gradient(0deg, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, .7) ), url(${data.playlistArt})`,
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
-                    backgroundPosition: "top 20% left 20%"
+                    backgroundPosition: "top 230% center",
+                    
+
+                                        
                 }
               
                 return  <PlaylistMeta 
@@ -45,9 +49,11 @@ const Playlist = () => {
                         totalSongs={data.totalSongs}
                         />
             }
+            return null;
+    
         })
         let trackList = playlistData.map(data => {
-            if(data.id == id) {
+            if(data.id === parseInt(id)) {
                 return data.songs.map((song, index) => {
                     return (
                         <Tracklist 
@@ -61,6 +67,8 @@ const Playlist = () => {
                     )
                 })
             }
+            return null;
+    
         })
         return (
         <div className='playlist-container' style={background}>

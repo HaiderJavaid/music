@@ -1,17 +1,22 @@
 import React from 'react'
+import Heart from '../../../assets/Heart3.svg'
+import dots from '../../../assets/more-vertical.svg'
 
 
 const Tracklist = (props) => {
   return (
     <div className='song flex'>
-        <div className='flex'>
+        <div className='flex cover'>
             <img className='album--art' src={props.coverArt} alt="hello" />
-            <button>&#10084;</button> {/**Please help !!!! */}
+            <img src={Heart} alt="heart" /> 
         </div>
-        <p><span>{props.title}</span> - <span>{props.artist}</span></p>
+        
+        <p className='song-name'><span>{props.title}</span> - <span>{props.artist}</span></p>
         <p>{props.album}</p>
         <p>{props.duration}</p>
-        <button>&#8278;</button> {/**Please help !!!! */}
+        <button className='menu-btn'>
+          <img src={dots} alt="dots" />
+        </button> 
     </div>
   )
 }

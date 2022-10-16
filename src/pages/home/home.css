@@ -8,6 +8,8 @@ a {
 }
 .maincard-display {
     display: flex;
+    justify-content: flex-end;
+    margin-right: 59px;
     justify-content: space-between;
 }
 .topchart {
@@ -27,5 +29,6 @@ a {
 .topchart p{
     margin-bottom: 8px;
     line-height: 14.4px;
+
 }
 

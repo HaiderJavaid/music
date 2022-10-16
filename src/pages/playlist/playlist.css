@@ -25,7 +25,7 @@
     margin-block: 1rem;
 }
 .playlist--header img{
-    width: 16rem;
+    width: 284px;
     border-radius: 2.1rem;
 }
 .btn-container{
@@ -40,12 +40,39 @@
 }
 .song{
     width: 100%;
+    height: 56px;
+    font-size: 14px;
     justify-content: space-between !important;
-    background-color: #1A1E1F;
-    padding: .5rem;
+    background-color: rgba(51, 55, 59, .37);
+    border-radius: 15px;
+    padding-left: 10px;
+    
+    
 }
+.cover{
+    margin-right: 100px;
+}
+.song p{
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.song-name{
+    text-align: left !important;
+}
+
+
 .album--art {
     width: 40px;
     height: 40px;
-    margin-right: 1rem;
+    margin-right: 10px;
+    border-radius: 8.53px;
+}
+span{
+    color: white;
+}
+.menu-btn{
+    background: none;
+    border: none;  
+    margin-right: 20px;
 }

@@ -8,15 +8,34 @@ import Rectangle5 from '../../../../assets/Rectangle5.svg'
 import Rectangle6 from '../../../../assets/Rectangle6.svg'
 import Rectangle7 from '../../../../assets/Rectangle7.svg'
 
+import { motion } from "framer-motion"
+
+
 const NewRelease = ({title, cover, artist}) => {
+
+  const container = {
+    hidden: { y: 20, opacity: 0, },
+    visible: { y: 0, opacity: 1,
+    transition: {
+      delay: 1.5,
+    } },
+   
+
+  };
+
   return (
 
-    <div className="album">
+    <motion.div 
+              className="album"
+              initial="hidden"
+              animate="visible"
+              variants={container}>
+
         <img src={cover} alt="art" />
         <h4>{title}</h4>
         <p>{artist}</p>
 
-    </div>
+    </motion.div>
   )
 }
 

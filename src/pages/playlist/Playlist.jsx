@@ -56,7 +56,7 @@ const Playlist = () => {
                             title={song.title}
                             artist={song.artist}
                             album={song.album}
-                            duration={song.length}
+                            duration={song.Length}
                         />
                     )
                 })

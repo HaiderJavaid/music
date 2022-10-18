@@ -1,0 +1,22 @@
+.page-layout {
+    height: 100%;
+    width: auto;
+    padding-top: 96px;
+    padding-left: 96px;
+
+}
+
+.navigation {
+
+}
+
+.btn-navi {
+    margin-right: 10px;
+    padding: 7px 1.5em;
+    border-radius: 30px;
+}
+
+
+.comp-layout {
+    display: flex;
+}

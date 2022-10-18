@@ -13,8 +13,9 @@ import {Link} from 'react-router-dom'
 
 
 const Sidebar = () => {
+
+ 
   return (
-   
 <div>
   
     <div className='sidebar'>
@@ -24,7 +25,7 @@ const Sidebar = () => {
           <img className='single-icon' src={homeIcon} alt=""/>
         </Link>
         
-        <Link to={'/album'}>
+        <Link to={'/collection'}>
           <img className='single-icon' src={playlist} alt=""/>
         </Link>
        

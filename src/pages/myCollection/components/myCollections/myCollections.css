@@ -1,0 +1,32 @@
+.collection-card {
+    position: relative;
+}
+
+.album-coll {
+    margin-right: 24px;
+    margin-top: 23px;
+    height: 234px;
+}
+
+
+
+.overlay {
+    font-size: small;
+    position: absolute;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 125px 57px 20px 20px;
+    background: linear-gradient(179.89deg, rgba(0, 0, 0, 0) 0.1%, rgba(15, 18, 19, 0.85) 80.67%);
+    bottom: -0px;
+    left: 0px;
+}
+
+.text {
+
+}
+
+.text h4 {
+
+    font-size: 20px;
+    font-weight: 200;
+}

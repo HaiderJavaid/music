@@ -4,6 +4,8 @@ import play from '../../../assets/Play.svg'
 import collection from '../../../assets/music-square-add.svg'
 import heart from '../../../assets/Heart2.svg'
 
+import { motion } from 'framer-motion'
+
 const PlaylistMeta = (props) => {
   return (
     <div className='playlist--header flex'>

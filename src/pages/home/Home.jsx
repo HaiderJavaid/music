@@ -8,6 +8,8 @@ import MainCard from './components/mainCard/MainCard'
 import TopChart from './components/topChart/TopChart'
 import NewRelease from './components/newRelease/NewRelease'
 
+import { motion } from "framer-motion"
+
 import './home.css'
 
 
@@ -59,16 +61,27 @@ const Home = () => {
   return (
     <div className='home-container'>
     
-      <div className='maincard-display'>
+    <div
+      className='maincard-display'>
         <MainCard/>
         <div className='topchart'>
-          <h2>Top Charts</h2>
+
+          <motion.h2
+          initial={{opacity: 0,}}
+          animate={{opacity: 1, transition: {delay: 1.5}}}>Top Charts
+          </motion.h2>
+
           {topCharts}
         </div>
       </div>
-      
+
       <div className='release--container'>
-          <h2>Top Releases</h2>
+
+          <motion.h2 
+          initial={{opacity: 0,}}
+          animate={{opacity: 1, transition: {delay: 1.5}}}>Top Releases
+          </motion.h2>
+
           <div className='album--container flex'>
               {albums}
           </div>

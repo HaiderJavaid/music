@@ -59,3 +59,32 @@ input[type="text"] {
     margin: 0 25.33px 0 29px  ;
     height: 20px;
 }
+.search-result-container {
+    background-color: #1D2123;
+    position: absolute;
+    min-height: 15rem;
+    width: 40%;
+    top: 3.9rem;
+    left: 5.2rem;
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px hsla(100, 100%, 100%, 0.1);
+    z-index: 4;
+}
+
+.search-result {
+    justify-content: flex-start;
+    height: 50px;
+}
+.song-info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.song-info p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.song-info .artist {
+    opacity: .7;
+}

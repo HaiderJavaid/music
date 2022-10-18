@@ -63,7 +63,7 @@ const Searchbar = () => {
                   </div>
                   <div className='song-info flex'>
                     <p>{data.name}</p>
-                    <p>{artistName(index)}</p>
+                    <p className='artist'>{artistName(index)}</p>
                   </div>
               </div>
       )

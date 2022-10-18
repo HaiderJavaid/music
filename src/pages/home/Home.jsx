@@ -61,7 +61,10 @@ const Home = () => {
   return (
     <div className='home-container'>
     
+
     <div
+
+      
       className='maincard-display'>
         <MainCard/>
         <div className='topchart'>

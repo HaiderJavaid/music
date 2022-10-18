@@ -3,6 +3,9 @@ import './newRelease.css'
 import { motion } from "framer-motion"
 
 
+import { motion } from "framer-motion"
+
+
 const NewRelease = ({title, cover, artist}) => {
 
   const container = {

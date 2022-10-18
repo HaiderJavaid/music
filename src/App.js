@@ -24,6 +24,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/album" element={<Album />} />
+      <Route path="/collection" element={<Collection />} />
+
       <Route path='/playlist/:id' element={<Playlist />}/>
       <Route path="/collection" element={<Collection />} />
       </Routes>

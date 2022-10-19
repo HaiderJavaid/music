@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import MyCollections from './components/myCollections/myCollections'
+import MyCollections from './components/myCollections/MyCollections'
 import './collection.css'
 
 import { motion } from "framer-motion"

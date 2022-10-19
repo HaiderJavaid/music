@@ -1,7 +1,8 @@
 import React from 'react'
 import './newRelease.css'
-
 import { motion } from "framer-motion"
+
+
 
 
 const NewRelease = ({title, cover, artist}) => {
@@ -12,7 +13,7 @@ const NewRelease = ({title, cover, artist}) => {
     transition: {
       delay: 1.5,
     } },
-   
+
 
   };
 

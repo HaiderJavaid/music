@@ -17,6 +17,12 @@ const Home = () => {
 
   const [chartMeta, setChartMeta] = useState([]);
   const [albumData, setAlbumData] = useState([]);
+
+  const [collection, setCollection] = useState([]);
+
+  const addToCollection = (chart) => {
+      setCollection([...collection, chart]);
+  };
   
   useEffect(() => {
     fetch('musica-data.json',
@@ -43,6 +49,7 @@ const Home = () => {
             playlistTitle={data.title}
             playlistCover={data.playlistArt}
             totalDuration={data.totalTime}
+            addToCollection={addToCollection}
         />
     )
   })
@@ -57,12 +64,25 @@ const Home = () => {
         />
     )
 })
+let collectionData = collection.map((data, index) => {
+  return (
+      <TopChart
+      key={index}
+      id={data.id}
+      compiler={data.compiler}
+      playlistTitle={data.title}
+      playlistCover={data.playlistArt}
+      totalDuration={data.totalTime}
+      />
+  )
+})
+
 
   return (
     <div className='home-container'>
     
-      <div
-      className='maincard-display'>
+
+    <div className='maincard-display'>
         <MainCard/>
         <div className='topchart'>
 
@@ -74,7 +94,7 @@ const Home = () => {
           {topCharts}
         </div>
       </div>
-      
+
       <div className='release--container'>
 
           <motion.h2 
@@ -84,8 +104,13 @@ const Home = () => {
 
           <div className='album--container flex'>
               {albums}
+              {collectionData}
           </div>
+          
+
       </div>
+
+
       
       <MusicControl/>
     </div>

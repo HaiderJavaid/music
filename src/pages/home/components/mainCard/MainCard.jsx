@@ -13,7 +13,7 @@ const MainCard = () => {
     hidden: { y: 20, opacity: 0 }, 
     visible: { opacity: 1, y: 0, transition: { delay : 0.5, }
     }
-    
+
   };
 
   const item = {
@@ -31,6 +31,12 @@ const MainCard = () => {
                   variants={container} >
 
         <motion.div className="vector"
+
+        whileHover={{
+          scale: 1.1,
+          transition: { duration: 0.5 },
+        }}
+
                     initial='hidden'
                     animate='visible'
                     variants={item}>
@@ -61,7 +67,7 @@ const MainCard = () => {
           </motion.div>
 
           <div className="rightside">
-          
+
             <img src={Hero} alt="Hero" className='Hero'  />
           </div>
         </motion.div>
@@ -69,5 +75,6 @@ const MainCard = () => {
     </div>
   )
 }
+  
 
 export default MainCard

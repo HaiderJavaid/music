@@ -7,11 +7,11 @@ import { motion } from "framer-motion"
 
 const MyCollections = ({title, cover, artist}) => {
   return (
-    
+
         <div className="collection-card">
             <img className='album-coll' src={cover} alt=""/>
 
-              
+
             <div className='overlay'>
             <div className='text'>
                 <h4>{title}</h4>
@@ -19,7 +19,6 @@ const MyCollections = ({title, cover, artist}) => {
             </div>
             </div>
         </div>
-    
   )
 }
 

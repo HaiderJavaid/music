@@ -5,6 +5,8 @@ import Tracklist from './components/Tracklist'
 
 import "./playlist.css"
 
+import { motion } from 'framer-motion'
+
 
 const Playlist = () => {
 
@@ -68,15 +70,31 @@ const Playlist = () => {
                 })
             }
             return null;
-    
         })
+
+        const container = {
+            hidden: { opacity: 0, top: 100 },
+            visible: { opacity: 1, 
+                top: 30, 
+                transition: {
+                    delay: 0.5,
+                    staggerChildren: 1,
+                    delayChildren: 2,
+            }, },
+        }
+
         return (
-        <div className='playlist-container' style={background}>
+        <motion.div 
+        className='playlist-container' 
+        style={background}
+        initial="hidden"
+        animate="visible"
+        variants={container}>
             {playlistMeta}
-            <div className='songs-container flex'>
+            <motion.div className='songs-container flex'>
                 {trackList}
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }
 

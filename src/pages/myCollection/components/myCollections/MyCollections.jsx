@@ -1,8 +1,8 @@
 import React from 'react'
-import albumArt from '../../../../assets/album1.svg'
+// import albumArt from '../../../../assets/album1.svg'
 import './myCollections.css'
 
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 
 const MyCollections = ({title, cover, artist}) => {

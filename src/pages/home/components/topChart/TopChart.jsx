@@ -18,11 +18,11 @@ const TopChart = (props) => {
     
   };
 
-  const item = {
-    hidden: { y: 20, opacity: 0 },
-    visible: { y: 0, opacity: 1, transition: { delay: 1.5, }
-    }
-  }
+  // const item = {
+  //   hidden: { y: 20, opacity: 0 },
+  //   visible: { y: 0, opacity: 1, transition: { delay: 1.5, }
+  //   }
+  // }
 
   return (
     <Link to={`/playlist/${props.id}`}>

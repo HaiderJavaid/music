@@ -32,6 +32,7 @@ input {
 } */
 
 .nav-bar {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -42,8 +43,10 @@ input {
 .searchbar{
     padding-left: 2.4rem;
     background: transparent;
+    width: 100%;
 }
 input[type="text"] {
+    width: 100%;
     border: none ;
     background: url(../../assets/search.svg) no-repeat left 5px top 50%;
     padding-left: 25.33px;
@@ -58,4 +61,26 @@ input[type="text"] {
 .search-icon {
     margin: 0 25.33px 0 29px  ;
     height: 20px;
+    
+}
+.side-menu{
+    display:none;
+}
+
+/* MOBILE VIEW */
+
+@media (max-width:600px) {
+    input[type="text"] {
+        background: url(../../assets/search.svg) no-repeat right 5px top 50%;
+        padding-right: 27px;
+    }
+    input[type="text"]::placeholder{
+        color: transparent
+    }
+    .logo{
+        position: relative;
+        left: 70px;
+    }
+    
+   
 }

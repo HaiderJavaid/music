@@ -1,0 +1,43 @@
+
+
+
+@media screen and(max-width:600px){
+    
+    .hamburger{
+        display: block;
+    }
+    .sidebar-menu{
+        display: none;
+    }
+    
+    .sidebar-icons{
+        
+        display: none;
+        position: absolute;
+        top: 82px;
+        left: 0;
+        padding-left: 37px;
+        padding-top: 100px;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        height: calc(100vh - 82px);
+        background-color: rgb(29, 28, 28);
+        border-top: 1px solid black;
+        z-index: 10;
+      
+    }
+    .sidebar-icons li{
+        display: flex;
+        align-items: center;
+        gap: 27px;
+        margin: 0;
+    }
+    .link{
+        margin-right: 27px;
+    } 
+    .side-menu.expanded .sidebar-icons {
+        display: block;
+    }
+
+}

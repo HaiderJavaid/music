@@ -27,22 +27,17 @@ const TopChart = (props) => {
     <Link to={`/playlist/${props.id}`}>
 
       <motion.div 
-<<<<<<< HEAD
+
       whileHover={{
         scale: 1.1,
         transition: { duration: 0.3 },
       }}
-=======
->>>>>>> ba0d3b41426a2a37ff166af7070a2188e7c9146e
+
       className="singleChart"
       initial="hidden"
       animate="visible"
       variants={container}>
-<<<<<<< HEAD
 
-=======
-          
->>>>>>> ba0d3b41426a2a37ff166af7070a2188e7c9146e
         <img src={props.playlistCover} height='50' className='img' alt="" />
         <div className="elements">
           <h4>{props.playlistTitle}</h4>
@@ -50,13 +45,9 @@ const TopChart = (props) => {
         <p>{props.totalDuration}</p>
 
         </div>
-        <img src={heart} height='50' className='heart-icon' alt="" />
+        <img onClick={props.addToCollection} src={heart} height='50' className='heart-icon' alt="" />
       </motion.div>
-<<<<<<< HEAD
 
-=======
-      
->>>>>>> ba0d3b41426a2a37ff166af7070a2188e7c9146e
     </Link>
   )
 }

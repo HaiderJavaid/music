@@ -31,13 +31,12 @@ const MainCard = () => {
                   variants={container} >
 
         <motion.div className="vector"
-<<<<<<< HEAD
+
         whileHover={{
           scale: 1.1,
           transition: { duration: 0.5 },
         }}
-=======
->>>>>>> ba0d3b41426a2a37ff166af7070a2188e7c9146e
+
                     initial='hidden'
                     animate='visible'
                     variants={item}>
@@ -68,11 +67,7 @@ const MainCard = () => {
           </motion.div>
 
           <div className="rightside">
-<<<<<<< HEAD
 
-=======
-          
->>>>>>> ba0d3b41426a2a37ff166af7070a2188e7c9146e
             <img src={Hero} alt="Hero" className='Hero'  />
           </div>
         </motion.div>

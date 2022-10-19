@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import MyCollections from './components/myCollections/MyCollections'
+import MyCollections from './components/myCollections/myCollections'
 import './collection.css'
 
 import { motion } from "framer-motion"
@@ -38,15 +38,13 @@ const Collection = () => {
       hidden: { y: 20, opacity: 0 }, 
       visible: { opacity: 1, y: 0, transition: { delay : 0.5, }
       }
-<<<<<<< HEAD
 
     };
 
-=======
       
-    };
+    
   
->>>>>>> ba0d3b41426a2a37ff166af7070a2188e7c9146e
+
     const item = {
       hidden: { y: 20, opacity: 0 },
       visible: { y: 0, opacity: 1, transition: { delay: 1, }

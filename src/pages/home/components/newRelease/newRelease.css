@@ -23,7 +23,7 @@
     opacity: .85;
 }
 .album img {
-    width: 153px;
+    max-width: 153px;
     height: 153px;
     border-radius: 25px;
 }

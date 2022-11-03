@@ -63,7 +63,7 @@
 
 
 .album--art {
-    width: 40px;
+    max-width: 40px;
     height: 40px;
     margin-right: 10px;
     border-radius: 8.53px;

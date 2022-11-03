@@ -5,7 +5,7 @@ import dots from '../../../assets/more-vertical.svg'
 
 const Tracklist = (props) => {
   return (
-    <div className='song flex'>
+    <div className='song flex' onClick={props.handleClick}>
         <div className='flex cover'>
             <img className='album--art' src={props.coverArt} alt="hello" />
             <img src={Heart} alt="heart" /> 

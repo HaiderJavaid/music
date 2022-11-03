@@ -1,10 +1,21 @@
+
 .musiccontrol {
-  /* overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: 100%;
-    border: solid black 2px;
-    height: 60px; */
+  min-width: 100%;
+  z-index: 4;
+  background: rgba(29, 33, 35, .4);
+  padding-inline: 6rem 3rem;
+  border-top: 1px #ffffff solid;
+  backdrop-filter: blur(15px);
+}
+.musiccontrol .play {
+  min-width: 30px;
+  height: 30px;
+  background:rgba(250, 205, 102, 1);
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.3);
+  padding-left: .1rem;
 }
 .slidecontainer {
   width: 100%; /* Width of the outside container */
@@ -27,18 +38,135 @@
   opacity: 1; /* Fully shown on mouse-over */
 }
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-.slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb{
   -webkit-appearance: none; /* Override default look */
   appearance: none;
   width: 12px; /* Set a specific slider handle width */
   height: 12px; /* Slider handle height */
   background: rgba(250, 205, 102, 1);
-  border-radius: 50px;
-
+  border-radius: 50%;
   cursor: pointer; /* Cursor on hover */
+  margin-left: -5px;
 }
 slider::-moz-range-thumb {
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
   cursor: pointer; /* Cursor on hover */
+}
+.progress--container {
+  min-width: 100%;
+  padding-inline: 1rem;
+}
+.progress--container p {
+  margin-bottom: 0;
+  margin-inline: .5rem;
+}
+/* custom progress bar chrome */
+.progress--bar {
+  --current-time-width: 0;
+
+  appearance: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 8px;
+  outline: none;
+  cursor: pointer;
+  transform: scaleY(1);
+  transition: transform 0.3s ease;
+}
+.progress--bar:hover {
+  transform: scaleY(1.2);
+}
+
+/* custom progress bar - safari */
+.progress--bar::-webkit-slider-runnable-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 8px;
+  outline: none;
+}
+
+/* custom progress bar - firefox */
+.progress--bar::-moz-range-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 8px;
+  outline: none;
+  transform: scaleY(1);
+  transition: transform 0.3s ease;
+}
+.progress--bar:hover::-moz-range-track {
+  transform: scaleY(1.2);
+}
+
+/* current progress for safari and chrome */
+.progress--bar::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: var(--current-time-width);
+  height: 8px;
+  background: rgba(250, 205, 102, 1);
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 2;
+}
+
+/* current progress for firefox*/
+.progress--bar::-moz-range-progress {
+  background: rgba(250, 205, 102, 1);
+  height: 8px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Custom thumb Styling - chrome and safari */
+.progress--bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 14px;
+  background: rgba(250, 205, 102, 1);
+  border-radius: 50%;
+  margin-top: -2px;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  z-index: 3;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.progress--bar:hover::-webkit-slider-thumb {
+  opacity: 1;
+}
+
+/* Custom thumb Styling - firefox*/
+.progress--bar::-moz-range-thumb {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: transparent;
+  background: rgba(250, 205, 102, 1);
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.progress--bar:hover::-moz-range-thumb {
+  opacity: 1;
+}
+.toggle-btn{
+  border-radius: 6px;
+  padding: 2px;
 }

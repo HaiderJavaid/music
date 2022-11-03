@@ -15,77 +15,98 @@
                         "title": "Let me love you",
                         "artist": "krisx",
                         "album": "Single",
-                        "Length": "4:12"
+                        "Length": "4:12",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/BabyElephantWalk60.wav"
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-african-giant-artwork.png",
                         "title": "Wetin man go do",
                         "artist": "Burna Boy",
                         "album": "African giant",
-                        "Length": "2:30"
+                        "Length": "2:30",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav"
+
                     },
                     {
                         "coverArt": "../images/artiste/davido/davido-stand-strong-art.jpg",
                         "title": "Stand Strong",
                         "artist": "Davido 001",
                         "album": "Single",
-                        "Length": "2:02"
+                        "Length": "2:02",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav"
+
                     },
                     {
                         "coverArt": "../images/album/album_art_7.png",
                         "title": "Closa",
                         "artist": "Ybee",
                         "album": "Obidatti",
-                        "Length": "3:23"
+                        "Length": "3:23",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/Fanfare60.wav"
+
                     },
                     {
                         "coverArt": "../images/artiste/omah-lay/omah-lay-understand-artwork.jpeg",
                         "title": "understand",
                         "artist": "Omalay",
                         "album": "Single",
-                        "Length": "2:54"
+                        "Length": "2:54",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/ImperialMarch60.wav"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
                         "title": "Last Last",
                         "artist": "Burna Boy",
                         "album": "Love, Damini",
-                        "Length": "2:52"
+                        "Length": "2:52",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther60.wav"
+
                     },
                     {
                         "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
                         "title": "Terminator",
                         "artist": "Asake",
                         "album": "Mr.Money With The Vibe",
-                        "Length": "2:35"
+                        "Length": "2:35",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther60.wav"
+
                     },
                     {
                         "coverArt": "../images/artiste/Ayra/ayra-starr-rush-artwork.webp",
                         "title": "Rush",
                         "artist": "Arya Star",
                         "album": "Single",
-                        "Length": "3:05"
+                        "Length": "3:05",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/Fanfare60.wav"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
                         "title": "Common Person",
                         "artist": "Burna",
                         "album": "Love, Damini",
-                        "Length": "3:30"
+                        "Length": "3:30",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/BabyElephantWalk60.wav"
+
                     },
                     {
                         "coverArt": "../images/artiste/C-kay/c-kay-sad-romance-artwork.jpeg",
                         "title": "emilliana",
                         "artist": "CKay",
                         "album": "Sad Romance",
-                        "Length": "2:46"
+                        "Length": "2:46",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav"
+
                     }, 
                     {
                         "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
                         "title": "Muse",
                         "artist": "Asake",
                         "album": "Mr.Money With The Vibe",
-                        "Length": "1:57"
+                        "Length": "1:57",
+                        "track": "https://www2.cs.uic.edu/~i101/SoundFiles/Fanfare60.wav"
+
                     }
                 ]
 
@@ -105,77 +126,99 @@
                         "title": "Let me love you",
                         "artist": "krisx",
                         "album": "Single",
-                        "Length": "4:12"
+                        "Length": "4:12",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-african-giant-artwork.png",
                         "title": "Wetin man go do",
                         "artist": "Burna Boy",
                         "album": "African giant",
-                        "Length": "2:30"
+                        "Length": "2:30",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/davido/davido-stand-strong-art.jpg",
                         "title": "Stand Strong",
                         "artist": "Davido 001",
                         "album": "Single",
-                        "Length": "2:02"
+                        "Length": "2:02",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/album/album_art_7.png",
                         "title": "Closa",
                         "artist": "Ybee",
                         "album": "Obidatti",
-                        "Length": "3:23"
+                        "Length": "3:23",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/omah-lay/omah-lay-understand-artwork.jpeg",
                         "title": "understand",
                         "artist": "Omalay",
                         "album": "Single",
-                        "Length": "2:54"
+                        "Length": "2:54",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
                         "title": "Last Last",
                         "artist": "Burna Boy",
                         "album": "Love, Damini",
-                        "Length": "2:52"
+                        "Length": "2:52",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
                         "title": "Terminator",
                         "artist": "Asake",
                         "album": "Mr.Money With The Vibe",
-                        "Length": "2:35"
+                        "Length": "2:35",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Ayra/ayra-starr-rush-artwork.webp",
                         "title": "Rush",
                         "artist": "Arya Star",
                         "album": "Single",
-                        "Length": "3:05"
+                        "Length": "3:05",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
                         "title": "Common Person",
                         "artist": "Burna",
                         "album": "Love, Damini",
-                        "Length": "3:30"
+                        "Length": "3:30",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/C-kay/c-kay-sad-romance-artwork.jpeg",
                         "title": "emilliana",
                         "artist": "CKay",
                         "album": "Sad Romance",
-                        "Length": "2:46"
+                        "Length": "2:46",
+                        "track": "../track/audio-rock.mp3"
+
                     }, 
                     {
                         "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
                         "title": "Muse",
                         "artist": "Asake",
                         "album": "Mr.Money With The Vibe",
-                        "Length": "1:57"
+                        "Length": "1:57",
+                        "track": "../track/audio-rock.mp3"
+
                     }
                 ]
 
@@ -195,77 +238,99 @@
                         "title": "Let me love you",
                         "artist": "krisx",
                         "album": "Single",
-                        "Length": "4:12"
+                        "Length": "4:12",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-african-giant-artwork.png",
                         "title": "Wetin man go do",
                         "artist": "Burna Boy",
                         "album": "African giant",
-                        "Length": "2:30"
+                        "Length": "2:30",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/davido/davido-stand-strong-art.jpg",
                         "title": "Stand Strong",
                         "artist": "Davido 001",
                         "album": "Single",
-                        "Length": "2:02"
+                        "Length": "2:02",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/album/album_art_7.png",
                         "title": "Closa",
                         "artist": "Ybee",
                         "album": "Obidatti",
-                        "Length": "3:23"
+                        "Length": "3:23",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/omah-lay/omah-lay-understand-artwork.jpeg",
                         "title": "understand",
                         "artist": "Omalay",
                         "album": "Single",
-                        "Length": "2:54"
+                        "Length": "2:54",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
                         "title": "Last Last",
                         "artist": "Burna Boy",
                         "album": "Love, Damini",
-                        "Length": "2:52"
+                        "Length": "2:52",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
                         "title": "Terminator",
                         "artist": "Asake",
                         "album": "Mr.Money With The Vibe",
-                        "Length": "2:35"
+                        "Length": "2:35",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Ayra/ayra-starr-rush-artwork.webp",
                         "title": "Rush",
                         "artist": "Arya Star",
                         "album": "Single",
-                        "Length": "3:05"
+                        "Length": "3:05",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/Burna/burna-boy-love-damini-artwork.webp",
                         "title": "Common Person",
                         "artist": "Burna",
                         "album": "Love, Damini",
-                        "Length": "3:30"
+                        "Length": "3:30",
+                        "track": "../track/audio-rock.mp3"
+
                     },
                     {
                         "coverArt": "../images/artiste/C-kay/c-kay-sad-romance-artwork.jpeg",
                         "title": "emilliana",
                         "artist": "CKay",
                         "album": "Sad Romance",
-                        "Length": "2:46"
+                        "Length": "2:46",
+                        "track": "../track/audio-rock.mp3"
+
                     }, 
                     {
                         "coverArt": "../images/artiste/Asake/asake-mr-money-with-the-vibe-artwork.jpeg",
                         "title": "Muse",
                         "artist": "Asake",
                         "album": "Mr.Money With The Vibe",
-                        "Length": "1:57"
+                        "Length": "1:57",
+                        "track": "../track/audio-rock.mp3"
+
                     }
                 ]
             }

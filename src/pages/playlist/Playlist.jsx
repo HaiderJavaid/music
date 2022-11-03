@@ -1,17 +1,24 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import {useParams} from 'react-router-dom'
 import PlaylistMeta from './components/PlaylistMeta'
 import Tracklist from './components/Tracklist'
+import { useSelector, useDispatch } from 'react-redux'
 
 import "./playlist.css"
 
 import { motion } from 'framer-motion'
+import { updateSong, updatePlaying, songList, songMetas } from '../../actions'
+import { FaCommentsDollar } from 'react-icons/fa'
 
 
 const Playlist = () => {
 
-    const [playlistData, setPlaylistData] = useState([])
-
+    const [playlistData, setPlaylistData] = useState([]);
+    // const [list, setlist] = useState([]);
+    const isPlaying = useSelector(state => state.isPlaying)
+    let listUrl = [];
+    let metaUrl = [];
+    const dispatch = useDispatch();
     useEffect(() => {
         fetch('../musica-data.json',
         {
@@ -26,10 +33,20 @@ const Playlist = () => {
         })
         }, [])
 
-
+        useEffect(() => {
+             // This assigns the songlist for skip and prev functionality
+                dispatch(songList(listUrl))
+                dispatch(songMetas(metaUrl))
+        }, [listUrl])
         const {id} = useParams();
-        
         let background;
+        //This function plays songs for each track
+        function playTrack(track) {
+            dispatch(updateSong(track));
+            if(isPlaying === false){
+                dispatch(updatePlaying())
+            }
+        }
 
         let playlistMeta = playlistData.map((data, index) => {
             if(data.id === parseInt(id)) {
@@ -38,9 +55,6 @@ const Playlist = () => {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                     backgroundPosition: "top 230% center",
-                    
-
-                                        
                 }
               
                 return  <PlaylistMeta 
@@ -52,10 +66,11 @@ const Playlist = () => {
                         />
             }
             return null;
-    
         })
+
         let trackList = playlistData.map(data => {
             if(data.id === parseInt(id)) {
+                // data.map((song) => console.log(song.track))
                 return data.songs.map((song, index) => {
                     return (
                         <Tracklist 
@@ -65,12 +80,35 @@ const Playlist = () => {
                             artist={song.artist}
                             album={song.album}
                             duration={song.Length}
+                            handleClick={() => {playTrack(song.track)}}
                         />
                     )
                 })
             }
-            return null;
         })
+
+        let songsUrl = playlistData.map(data => {
+            if(data.id === parseInt(id)) {
+                return data.songs.map(song => {
+                   return listUrl.push(song.track)
+                })
+            }
+        });
+       
+        let songMeta = playlistData.map(data => {
+            if(data.id === parseInt(id)) {
+                return data.songs.map(song => {
+                    let currentSongInfo = {
+                        track: song.track,
+                        artist: song.artist,
+                        title: song.title,
+                        image: song.coverArt
+                    }
+                    return metaUrl.push(currentSongInfo)
+                })
+            }
+        });
+        
 
         const container = {
             hidden: { opacity: 0, top: 100 },

@@ -25,7 +25,8 @@ const Searchbar = () => {
     }
     fetch('https://accounts.spotify.com/api/token', authParameters)
       .then(res => res.json())
-      .then(data => setAccessToken(data.access_token))
+      .then(data => {
+        setAccessToken(data.access_token)})
   }, [])
 
   // SEARCH FUNCTION

@@ -15,8 +15,8 @@ import './musicControl.css'
     
     return(
         <div class="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
-</div>
+            <input type="range" class="progress--bar" id="seek" defaultValue="0" min="1" max="100" step="1" />
+        </div>
     )
  }
 
